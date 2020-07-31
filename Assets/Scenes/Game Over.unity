@@ -211,6 +211,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627174492}
     m_Modifications:
+    - target: {fileID: 2029347452308172262, guid: 87e2ea48fecf3d2449a6d14a2630a375,
+        type: 3}
+      propertyPath: clickFx
+      value: 
+      objectReference: {fileID: 8300000, guid: 9d6c72ff2e125bd459f0262cb1e9f7cd, type: 3}
+    - target: {fileID: 2029347452308172262, guid: 87e2ea48fecf3d2449a6d14a2630a375,
+        type: 3}
+      propertyPath: hoverFx
+      value: 
+      objectReference: {fileID: 8300000, guid: f6380c03ba796f6499ae56f668f47963, type: 3}
     - target: {fileID: 7491627847192955128, guid: 87e2ea48fecf3d2449a6d14a2630a375,
         type: 3}
       propertyPath: m_text
@@ -847,6 +857,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1627174492}
     m_Modifications:
+    - target: {fileID: 2029347452308172262, guid: 87e2ea48fecf3d2449a6d14a2630a375,
+        type: 3}
+      propertyPath: clickFx
+      value: 
+      objectReference: {fileID: 8300000, guid: 9d6c72ff2e125bd459f0262cb1e9f7cd, type: 3}
+    - target: {fileID: 2029347452308172262, guid: 87e2ea48fecf3d2449a6d14a2630a375,
+        type: 3}
+      propertyPath: hoverFx
+      value: 
+      objectReference: {fileID: 8300000, guid: f6380c03ba796f6499ae56f668f47963, type: 3}
     - target: {fileID: 7491627847192955128, guid: 87e2ea48fecf3d2449a6d14a2630a375,
         type: 3}
       propertyPath: m_textInfo.characterCount
