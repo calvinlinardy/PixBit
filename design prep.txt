@@ -1,0 +1,6 @@
+- convert the background color
+- create or find sprites for the block, paddle, ball.
+- 8 bit music (every level, game over, winning)
+- 8 bit sound effect for collision
+- 8 bit button
+- title pixelated

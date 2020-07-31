@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2d460f93622285f4391bf55d8c5ce58d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 18cdb911c5ddb89428b9e00e0acfd734, type: 3}
   m_Color: {r: 1, g: 0.0047169924, b: 0.0047169924, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -96,18 +96,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.07939726}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.28, y: 1.28}
     newSize: {x: 1.28, y: 1.28}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.97527015, y: 0.9802268}
+  m_Size: {x: 0.9609972, y: 0.805679}
   m_EdgeRadius: 0
 --- !u!114 &4514919590311398766
 MonoBehaviour:
@@ -124,6 +124,6 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 4f75b277b097d9f4dbcc38de89e013a6, type: 3}
   blockSparkleVFX: {fileID: 100000, guid: 7d846c02296ef4dc4abff04ce3e5262c, type: 3}
   hitSprites:
-  - {fileID: 21300000, guid: b4cdd33937cbd664aae8357fd82ce663, type: 3}
-  - {fileID: 21300000, guid: 1646137205f73c64a833fa5191ffe13f, type: 3}
+  - {fileID: 21300000, guid: a049b8bd46b2f2d45988ec81b3d92716, type: 3}
+  - {fileID: 21300000, guid: 8121084e4c611274db451a4f82d187f6, type: 3}
   timesHit: 0
