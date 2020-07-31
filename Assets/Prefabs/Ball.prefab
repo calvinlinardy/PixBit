@@ -138,10 +138,10 @@ MonoBehaviour:
   xPush: 7
   yPush: 15
   ballSounds:
-  - {fileID: 8300000, guid: 9830e28f1285bbe48a0474e72994fbdd, type: 3}
-  - {fileID: 8300000, guid: 52c32c8813c84584d97b21fdfb2383e1, type: 3}
-  - {fileID: 8300000, guid: 5a5bc8bbfe81ffb49b398b114f6cb379, type: 3}
-  - {fileID: 8300000, guid: 96d080739ab2aa54a9fac3b6a2893c3a, type: 3}
+  - {fileID: 8300000, guid: a36884b389fd89b4b852f0a9877c9f51, type: 3}
+  - {fileID: 8300000, guid: 7c2172e476c12ae49abe2b3ca32b7191, type: 3}
+  - {fileID: 8300000, guid: 0217f544f9cf40548bd5cd9cf6b16990, type: 3}
+  - {fileID: 8300000, guid: 00d3df06448207a499faecd0770854bc, type: 3}
   randomFactor: 1.3
 --- !u!82 &1691941007
 AudioSource:

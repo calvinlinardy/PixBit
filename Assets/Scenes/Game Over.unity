@@ -558,7 +558,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 78c753633f597ce4a863fab4ac02842d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 6992e59f2cfa12e449052f9f80940185, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.51
   m_Pitch: 1
@@ -994,6 +994,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1809998275}
+    - target: {fileID: 7491627847770099217, guid: 87e2ea48fecf3d2449a6d14a2630a375,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadStartingScene
+      objectReference: {fileID: 0}
     - target: {fileID: 7491627847770099219, guid: 87e2ea48fecf3d2449a6d14a2630a375,
         type: 3}
       propertyPath: m_Name

@@ -1436,7 +1436,7 @@ PrefabInstance:
     - target: {fileID: 149209309723920713, guid: 25a047976a8b34348b67cb20f67e2499,
         type: 3}
       propertyPath: isAutoPlayEnabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 149209309723920714, guid: 25a047976a8b34348b67cb20f67e2499,
         type: 3}
@@ -1995,6 +1995,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8543140341223438452, guid: 3dfac90c6ceeaab429ba6e862ed61fd0,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8974b95f1a024ad468fe774f9644b4c9, type: 3}
     - target: {fileID: 8543140341223438453, guid: 3dfac90c6ceeaab429ba6e862ed61fd0,
         type: 3}
       propertyPath: m_LocalPosition.x

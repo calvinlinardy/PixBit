@@ -655,7 +655,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: fa3df8720f51ab944b80e75c6e6b68f5, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f7e1abc93518507438be52ef6afbf52a, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.53
   m_Pitch: 1
@@ -929,7 +929,7 @@ PrefabInstance:
     - target: {fileID: 2017304897217792542, guid: b31295eed573e0346bf0235b02c6a481,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -647
+      value: -563
       objectReference: {fileID: 0}
     - target: {fileID: 2017304897217792542, guid: b31295eed573e0346bf0235b02c6a481,
         type: 3}
@@ -989,27 +989,34 @@ PrefabInstance:
     - target: {fileID: 2017304897729072374, guid: b31295eed573e0346bf0235b02c6a481,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 0
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2017304897729072374, guid: b31295eed573e0346bf0235b02c6a481,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2017304897729072374, guid: b31295eed573e0346bf0235b02c6a481,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2017304897729072374, guid: b31295eed573e0346bf0235b02c6a481,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2017304897729072374, guid: b31295eed573e0346bf0235b02c6a481,
         type: 3}
       propertyPath: m_textInfo.pageCount
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2017304897729072374, guid: b31295eed573e0346bf0235b02c6a481,
+        type: 3}
+      propertyPath: m_text
+      value: 'Quit Game
+
+'
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8937802239860088236, guid: b31295eed573e0346bf0235b02c6a481, type: 3}
@@ -1472,7 +1479,7 @@ PrefabInstance:
     - target: {fileID: 2017304897217792542, guid: b31295eed573e0346bf0235b02c6a481,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -415.26013
+      value: -405
       objectReference: {fileID: 0}
     - target: {fileID: 2017304897217792542, guid: b31295eed573e0346bf0235b02c6a481,
         type: 3}

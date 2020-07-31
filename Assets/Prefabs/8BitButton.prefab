@@ -147,8 +147,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myFx: {fileID: 2249471322208259834}
-  hoverFx: {fileID: 8300000, guid: 591deec235ddd45478160aa91e0abe33, type: 3}
-  clickFx: {fileID: 8300000, guid: 57c9899720d9ba34b87117ba3c104523, type: 3}
+  hoverFx: {fileID: 8300000, guid: bf3f43fc094bbe5459fc2a7284dc1c40, type: 3}
+  clickFx: {fileID: 8300000, guid: fdc772a50ee82ba44a60fcd8e3d603d8, type: 3}
 --- !u!82 &2249471322208259834
 AudioSource:
   m_ObjectHideFlags: 0
@@ -161,7 +161,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.78
+  m_Volume: 0.98
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -322,7 +322,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.33, y: 12.9}
+  m_AnchoredPosition: {x: -0.33000183, y: 12.9}
   m_SizeDelta: {x: 223.92033, y: 139.53665}
   m_Pivot: {x: 0.5000003, y: 0.5000001}
 --- !u!222 &2017304897729072375
