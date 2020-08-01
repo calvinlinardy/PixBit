@@ -62,7 +62,7 @@ public class SceneLoader : MonoBehaviour
 
     public void Continue()
     {
-        gameStatus.ResetGame();
+        gameStatus.ResetOnlyScore();
         SceneManager.LoadScene(PlayerPrefs.GetInt("SavedScene"));
     }
 
