@@ -68,7 +68,7 @@ public class SceneLoader : MonoBehaviour
 
     public void Restart()
     {
-        gameStatus.ResetGame();
+        gameStatus.ResetOnlyScore();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         GameIsPaused = false;
     }

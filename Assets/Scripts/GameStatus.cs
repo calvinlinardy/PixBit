@@ -11,6 +11,9 @@ public class GameStatus : MonoBehaviour
     [SerializeField] TextMeshProUGUI scoreText = null;
     public bool isAutoPlayEnabled = default;
 
+    //cached ref
+    SceneLoader sceneLoader;
+
     //state
     [SerializeField] int currentScore = 0;
 
@@ -37,6 +40,7 @@ public class GameStatus : MonoBehaviour
     private void Start()
     {
         scoreText.text = currentScore.ToString();
+        sceneLoader = FindObjectOfType<SceneLoader>();
     }
 
     // Update is called once per frame
@@ -57,9 +61,39 @@ public class GameStatus : MonoBehaviour
         currentScore += pointsPerBlockDestroyed;
         scoreText.text = currentScore.ToString();
     }
+
+    public void ResetOnlyScore()
+    {
+        currentScore = 0;
+        scoreText.text = currentScore.ToString();
+    }
     
     public bool IsAutoPlayEnabled()
     {
         return isAutoPlayEnabled;
+    }
+
+    public void PlayEasy()
+    {
+        gameSpeed = 0.5f;
+        sceneLoader.LoadNextScene();
+    }
+
+    public void PlayNormal()
+    {
+        gameSpeed = 0.7f;
+        sceneLoader.LoadNextScene();
+    }
+
+    public void PlayHard()
+    {
+        gameSpeed = 1.4f;
+        sceneLoader.LoadNextScene();
+    }
+
+    public void PlayImpossible()
+    {
+        gameSpeed = 2f;
+        sceneLoader.LoadNextScene();
     }
 }
